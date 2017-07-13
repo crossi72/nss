@@ -1,0 +1,16 @@
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\MathematicaUI.frmNegotiation.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\MathematicaUI.frmParameters.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\MathematicaUI.Resources.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\NSS.vbproj.GenerateResource.Cache
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\Wolfram.NETLink.dll
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\NSS.exe.config
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\NSS.exe
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\NSS.pdb
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\NSS.xml
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\NSS.exe
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\NSS.xml
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\NSS.pdb
+C:\Lavoro\mathematica\NSS\soluzione\obj\Debug\NSS.vbprojResolveAssemblyReference.cache
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\MathWrapper.dll
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\MathWrapper.pdb
+C:\Lavoro\mathematica\NSS\soluzione\bin\Debug\MathWrapper.xml

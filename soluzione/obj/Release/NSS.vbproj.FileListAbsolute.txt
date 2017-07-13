@@ -1,0 +1,13 @@
+C:\Lavoro\mathematica\NSS\soluzione\bin\Release\NSS.exe.config
+C:\Lavoro\mathematica\NSS\soluzione\bin\Release\NSS.exe
+C:\Lavoro\mathematica\NSS\soluzione\bin\Release\NSS.pdb
+C:\Lavoro\mathematica\NSS\soluzione\bin\Release\NSS.xml
+C:\Lavoro\mathematica\NSS\soluzione\bin\Release\Wolfram.NETLink.dll
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\MathematicaUI.frmNegotiation.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\MathematicaUI.frmParameters.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\MathematicaUI.Resources.resources
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\NSS.vbproj.GenerateResource.Cache
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\NSS.exe
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\NSS.xml
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\NSS.pdb
+C:\Lavoro\mathematica\NSS\soluzione\obj\Release\NSS.vbprojResolveAssemblyReference.cache

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="DatiBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>103, 17</value>
+  </metadata>
+  <metadata name="DSParameters.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>689, 56</value>
+  </metadata>
+  <metadata name="ParametersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>498, 56</value>
+  </metadata>
+  <metadata name="ParametersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>286, 95</value>
+  </metadata>
+  <metadata name="dsOldIraqiConstraints.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="DataBindingSource2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 56</value>
+  </metadata>
+  <metadata name="DataTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>727, 17</value>
+  </metadata>
+  <metadata name="dsOldTurkishConstraints.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>256, 17</value>
+  </metadata>
+  <metadata name="DataBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>440, 17</value>
+  </metadata>
+  <metadata name="DSDefaultData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 95</value>
+  </metadata>
+  <metadata name="DataBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 95</value>
+  </metadata>
+  <metadata name="TADefaultData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>596, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT datTmaxagrwat, datTminagrwat, datTindwat, datTminenewat, datTmaxintwat, datTpop, datTwatper, datTpopwat, datTeva, datTret, datImaxagrwat, datIminagrwat, datIindwat, datImarwat, datInavwat, datIpop, datIwatper, datIpopwat, datStotwat, datOwat, datTa, datTb, datTc, datTd, datTe, datTg, datTf, datTmaxpolintc, datIa, datIb, datIc, datTmarwat, datTnsh, datTsidpay, datInsh, datIsidpay, datTagrwat, datTnb, datF1, datF2, datF3, datF4, datF5, datF6, datF7, datF8, datF9, datF10, datF11, datF12, datF13, datF14, datF15, datF16, datF17, datF18, datIequthr, datTequthr, datInshthr, datTnshthr, datTequDifPerF3, datTequDifPerF7, datTequDifPerF11, datTequDifPerF15, datTnshDifPerF3, datTnshDifPerF7, datTnshDifPerF11, datTnshDifPerF15, datIequDifPerF4, datIequDifPerF8, datIequDifPerF12, datIequDifPerF16, datInshDifPerF4, datInshDifPerF8, datInshDifPerF12, datInshDifPerF16, datTurkishAgreement, datIraqiAgreement, DataCreazione, UtenteCreazione, DataAggiornamento, UtenteAggiornamento, Annullato, DataEstrazione, datID FROM data</value>
+  </data>
+  <metadata name="SqlConnection1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [data] ([datTmaxagrwat], [datTminagrwat], [datTindwat], [datTminenewat], [datTmaxintwat], [datTpop], [datTwatper], [datTpopwat], [datTeva], [datTret], [datImaxagrwat], [datIminagrwat], [datIindwat], [datImarwat], [datInavwat], [datIpop], [datIwatper], [datIpopwat], [datStotwat], [datOwat], [datTa], [datTb], [datTc], [datTd], [datTe], [datTg], [datTf], [datTmaxpolintc], [datIa], [datIb], [datIc], [datTmarwat], [datTnsh], [datTsidpay], [datInsh], [datIsidpay], [datTagrwat], [datTnb], [datF1], [datF2], [datF3], [datF4], [datF5], [datF6], [datF7], [datF8], [datF9], [datF10], [datF11], [datF12], [datF13], [datF14], [datF15], [datF16], [datF17], [datF18], [datIequthr], [datTequthr], [datInshthr], [datTnshthr], [datTequDifPerF3], [datTequDifPerF7], [datTequDifPerF11], [datTequDifPerF15], [datTnshDifPerF3], [datTnshDifPerF7], [datTnshDifPerF11], [datTnshDifPerF15], [datIequDifPerF4], [datIequDifPerF8], [datIequDifPerF12], [datIequDifPerF16], [datInshDifPerF4], [datInshDifPerF8], [datInshDifPerF12], [datInshDifPerF16], [datTurkishAgreement], [datIraqiAgreement], [DataCreazione], [UtenteCreazione], [DataAggiornamento], [UtenteAggiornamento], [Annullato], [DataEstrazione]) VALUES (@datTmaxagrwat, @datTminagrwat, @datTindwat, @datTminenewat, @datTmaxintwat, @datTpop, @datTwatper, @datTpopwat, @datTeva, @datTret, @datImaxagrwat, @datIminagrwat, @datIindwat, @datImarwat, @datInavwat, @datIpop, @datIwatper, @datIpopwat, @datStotwat, @datOwat, @datTa, @datTb, @datTc, @datTd, @datTe, @datTg, @datTf, @datTmaxpolintc, @datIa, @datIb, @datIc, @datTmarwat, @datTnsh, @datTsidpay, @datInsh, @datIsidpay, @datTagrwat, @datTnb, @datF1, @datF2, @datF3, @datF4, @datF5, @datF6, @datF7, @datF8, @datF9, @datF10, @datF11, @datF12, @datF13, @datF14, @datF15, @datF16, @datF17, @datF18, @datIequthr, @datTequthr, @datInshthr, @datTnshthr, @datTequDifPerF3, @datTequDifPerF7, @datTequDifPerF11, @datTequDifPerF15, @datTnshDifPerF3, @datTnshDifPerF7, @datTnshDifPerF11, @datTnshDifPerF15, @datIequDifPerF4, @datIequDifPerF8, @datIequDifPerF12, @datIequDifPerF16, @datInshDifPerF4, @datInshDifPerF8, @datInshDifPerF12, @datInshDifPerF16, @datTurkishAgreement, @datIraqiAgreement, @DataCreazione, @UtenteCreazione, @DataAggiornamento, @UtenteAggiornamento, @Annullato, @DataEstrazione);
+SELECT datTmaxagrwat, datTminagrwat, datTindwat, datTminenewat, datTmaxintwat, datTpop, datTwatper, datTpopwat, datTeva, datTret, datImaxagrwat, datIminagrwat, datIindwat, datImarwat, datInavwat, datIpop, datIwatper, datIpopwat, datStotwat, datOwat, datTa, datTb, datTc, datTd, datTe, datTg, datTf, datTmaxpolintc, datIa, datIb, datIc, datTmarwat, datTnsh, datTsidpay, datInsh, datIsidpay, datTagrwat, datTnb, datF1, datF2, datF3, datF4, datF5, datF6, datF7, datF8, datF9, datF10, datF11, datF12, datF13, datF14, datF15, datF16, datF17, datF18, datIequthr, datTequthr, datInshthr, datTnshthr, datTequDifPerF3, datTequDifPerF7, datTequDifPerF11, datTequDifPerF15, datTnshDifPerF3, datTnshDifPerF7, datTnshDifPerF11, datTnshDifPerF15, datIequDifPerF4, datIequDifPerF8, datIequDifPerF12, datIequDifPerF16, datInshDifPerF4, datInshDifPerF8, datInshDifPerF12, datInshDifPerF16, datTurkishAgreement, datIraqiAgreement, DataCreazione, UtenteCreazione, DataAggiornamento, UtenteAggiornamento, Annullato, DataEstrazione, datID FROM data WHERE (datID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [data] SET [datTmaxagrwat] = @datTmaxagrwat, [datTminagrwat] = @datTminagrwat, [datTindwat] = @datTindwat, [datTminenewat] = @datTminenewat, [datTmaxintwat] = @datTmaxintwat, [datTpop] = @datTpop, [datTwatper] = @datTwatper, [datTpopwat] = @datTpopwat, [datTeva] = @datTeva, [datTret] = @datTret, [datImaxagrwat] = @datImaxagrwat, [datIminagrwat] = @datIminagrwat, [datIindwat] = @datIindwat, [datImarwat] = @datImarwat, [datInavwat] = @datInavwat, [datIpop] = @datIpop, [datIwatper] = @datIwatper, [datIpopwat] = @datIpopwat, [datStotwat] = @datStotwat, [datOwat] = @datOwat, [datTa] = @datTa, [datTb] = @datTb, [datTc] = @datTc, [datTd] = @datTd, [datTe] = @datTe, [datTg] = @datTg, [datTf] = @datTf, [datTmaxpolintc] = @datTmaxpolintc, [datIa] = @datIa, [datIb] = @datIb, [datIc] = @datIc, [datTmarwat] = @datTmarwat, [datTnsh] = @datTnsh, [datTsidpay] = @datTsidpay, [datInsh] = @datInsh, [datIsidpay] = @datIsidpay, [datTagrwat] = @datTagrwat, [datTnb] = @datTnb, [datF1] = @datF1, [datF2] = @datF2, [datF3] = @datF3, [datF4] = @datF4, [datF5] = @datF5, [datF6] = @datF6, [datF7] = @datF7, [datF8] = @datF8, [datF9] = @datF9, [datF10] = @datF10, [datF11] = @datF11, [datF12] = @datF12, [datF13] = @datF13, [datF14] = @datF14, [datF15] = @datF15, [datF16] = @datF16, [datF17] = @datF17, [datF18] = @datF18, [datIequthr] = @datIequthr, [datTequthr] = @datTequthr, [datInshthr] = @datInshthr, [datTnshthr] = @datTnshthr, [datTequDifPerF3] = @datTequDifPerF3, [datTequDifPerF7] = @datTequDifPerF7, [datTequDifPerF11] = @datTequDifPerF11, [datTequDifPerF15] = @datTequDifPerF15, [datTnshDifPerF3] = @datTnshDifPerF3, [datTnshDifPerF7] = @datTnshDifPerF7, [datTnshDifPerF11] = @datTnshDifPerF11, [datTnshDifPerF15] = @datTnshDifPerF15, [datIequDifPerF4] = @datIequDifPerF4, [datIequDifPerF8] = @datIequDifPerF8, [datIequDifPerF12] = @datIequDifPerF12, [datIequDifPerF16] = @datIequDifPerF16, [datInshDifPerF4] = @datInshDifPerF4, [datInshDifPerF8] = @datInshDifPerF8, [datInshDifPerF12] = @datInshDifPerF12, [datInshDifPerF16] = @datInshDifPerF16, [datTurkishAgreement] = @datTurkishAgreement, [datIraqiAgreement] = @datIraqiAgreement, [DataCreazione] = @DataCreazione, [UtenteCreazione] = @UtenteCreazione, [DataAggiornamento] = @DataAggiornamento, [UtenteAggiornamento] = @UtenteAggiornamento, [Annullato] = @Annullato, [DataEstrazione] = @DataEstrazione WHERE (((@IsNull_datTmaxagrwat = 1 AND [datTmaxagrwat] IS NULL) OR ([datTmaxagrwat] = @Original_datTmaxagrwat)) AND ((@IsNull_datTminagrwat = 1 AND [datTminagrwat] IS NULL) OR ([datTminagrwat] = @Original_datTminagrwat)) AND ((@IsNull_datTindwat = 1 AND [datTindwat] IS NULL) OR ([datTindwat] = @Original_datTindwat)) AND ((@IsNull_datTminenewat = 1 AND [datTminenewat] IS NULL) OR ([datTminenewat] = @Original_datTminenewat)) AND ((@IsNull_datTmaxintwat = 1 AND [datTmaxintwat] IS NULL) OR ([datTmaxintwat] = @Original_datTmaxintwat)) AND ((@IsNull_datTpop = 1 AND [datTpop] IS NULL) OR ([datTpop] = @Original_datTpop)) AND ((@IsNull_datTwatper = 1 AND [datTwatper] IS NULL) OR ([datTwatper] = @Original_datTwatper)) AND ((@IsNull_datTpopwat = 1 AND [datTpopwat] IS NULL) OR ([datTpopwat] = @Original_datTpopwat)) AND ((@IsNull_datTeva = 1 AND [datTeva] IS NULL) OR ([datTeva] = @Original_datTeva)) AND ((@IsNull_datTret = 1 AND [datTret] IS NULL) OR ([datTret] = @Original_datTret)) AND ((@IsNull_datImaxagrwat = 1 AND [datImaxagrwat] IS NULL) OR ([datImaxagrwat] = @Original_datImaxagrwat)) AND ((@IsNull_datIminagrwat = 1 AND [datIminagrwat] IS NULL) OR ([datIminagrwat] = @Original_datIminagrwat)) AND ((@IsNull_datIindwat = 1 AND [datIindwat] IS NULL) OR ([datIindwat] = @Original_datIindwat)) AND ((@IsNull_datImarwat = 1 AND [datImarwat] IS NULL) OR ([datImarwat] = @Original_datImarwat)) AND ((@IsNull_datInavwat = 1 AND [datInavwat] IS NULL) OR ([datInavwat] = @Original_datInavwat)) AND ((@IsNull_datIpop = 1 AND [datIpop] IS NULL) OR ([datIpop] = @Original_datIpop)) AND ((@IsNull_datIwatper = 1 AND [datIwatper] IS NULL) OR ([datIwatper] = @Original_datIwatper)) AND ((@IsNull_datIpopwat = 1 AND [datIpopwat] IS NULL) OR ([datIpopwat] = @Original_datIpopwat)) AND ((@IsNull_datStotwat = 1 AND [datStotwat] IS NULL) OR ([datStotwat] = @Original_datStotwat)) AND ((@IsNull_datOwat = 1 AND [datOwat] IS NULL) OR ([datOwat] = @Original_datOwat)) AND ((@IsNull_datTa = 1 AND [datTa] IS NULL) OR ([datTa] = @Original_datTa)) AND ((@IsNull_datTb = 1 AND [datTb] IS NULL) OR ([datTb] = @Original_datTb)) AND ((@IsNull_datTc = 1 AND [datTc] IS NULL) OR ([datTc] = @Original_datTc)) AND ((@IsNull_datTd = 1 AND [datTd] IS NULL) OR ([datTd] = @Original_datTd)) AND ((@IsNull_datTe = 1 AND [datTe] IS NULL) OR ([datTe] = @Original_datTe)) AND ((@IsNull_datTg = 1 AND [datTg] IS NULL) OR ([datTg] = @Original_datTg)) AND ((@IsNull_datTf = 1 AND [datTf] IS NULL) OR ([datTf] = @Original_datTf)) AND ((@IsNull_datTmaxpolintc = 1 AND [datTmaxpolintc] IS NULL) OR ([datTmaxpolintc] = @Original_datTmaxpolintc)) AND ((@IsNull_datIa = 1 AND [datIa] IS NULL) OR ([datIa] = @Original_datIa)) AND ((@IsNull_datIb = 1 AND [datIb] IS NULL) OR ([datIb] = @Original_datIb)) AND ((@IsNull_datIc = 1 AND [datIc] IS NULL) OR ([datIc] = @Original_datIc)) AND ((@IsNull_datTmarwat = 1 AND [datTmarwat] IS NULL) OR ([datTmarwat] = @Original_datTmarwat)) AND ((@IsNull_datTnsh = 1 AND [datTnsh] IS NULL) OR ([datTnsh] = @Original_datTnsh)) AND ((@IsNull_datTsidpay = 1 AND [datTsidpay] IS NULL) OR ([datTsidpay] = @Original_datTsidpay)) AND ((@IsNull_datInsh = 1 AND [datInsh] IS NULL) OR ([datInsh] = @Original_datInsh)) AND ((@IsNull_datIsidpay = 1 AND [datIsidpay] IS NULL) OR ([datIsidpay] = @Original_datIsidpay)) AND ((@IsNull_datTagrwat = 1 AND [datTagrwat] IS NULL) OR ([datTagrwat] = @Original_datTagrwat)) AND ((@IsNull_datTnb = 1 AND [datTnb] IS NULL) OR ([datTnb] = @Original_datTnb)) AND ((@IsNull_datF1 = 1 AND [datF1] IS NULL) OR ([datF1] = @Original_datF1)) AND ((@IsNull_datF2 = 1 AND [datF2] IS NULL) OR ([datF2] = @Original_datF2)) AND ((@IsNull_datF3 = 1 AND [datF3] IS NULL) OR ([datF3] = @Original_datF3)) AND ((@IsNull_datF4 = 1 AND [datF4] IS NULL) OR ([datF4] = @Original_datF4)) AND ((@IsNull_datF5 = 1 AND [datF5] IS NULL) OR ([datF5] = @Original_datF5)) AND ((@IsNull_datF6 = 1 AND [datF6] IS NULL) OR ([datF6] = @Original_datF6)) AND ((@IsNull_datF7 = 1 AND [datF7] IS NULL) OR ([datF7] = @Original_datF7)) AND ((@IsNull_datF8 = 1 AND [datF8] IS NULL) OR ([datF8] = @Original_datF8)) AND ((@IsNull_datF9 = 1 AND [datF9] IS NULL) OR ([datF9] = @Original_datF9)) AND ((@IsNull_datF10 = 1 AND [datF10] IS NULL) OR ([datF10] = @Original_datF10)) AND ((@IsNull_datF11 = 1 AND [datF11] IS NULL) OR ([datF11] = @Original_datF11)) AND ((@IsNull_datF12 = 1 AND [datF12] IS NULL) OR ([datF12] = @Original_datF12)) AND ((@IsNull_datF13 = 1 AND [datF13] IS NULL) OR ([datF13] = @Original_datF13)) AND ((@IsNull_datF14 = 1 AND [datF14] IS NULL) OR ([datF14] = @Original_datF14)) AND ((@IsNull_datF15 = 1 AND [datF15] IS NULL) OR ([datF15] = @Original_datF15)) AND ((@IsNull_datF16 = 1 AND [datF16] IS NULL) OR ([datF16] = @Original_datF16)) AND ((@IsNull_datF17 = 1 AND [datF17] IS NULL) OR ([datF17] = @Original_datF17)) AND ((@IsNull_datF18 = 1 AND [datF18] IS NULL) OR ([datF18] = @Original_datF18)) AND ((@IsNull_datIequthr = 1 AND [datIequthr] IS NULL) OR ([datIequthr] = @Original_datIequthr)) AND ((@IsNull_datTequthr = 1 AND [datTequthr] IS NULL) OR ([datTequthr] = @Original_datTequthr)) AND ((@IsNull_datInshthr = 1 AND [datInshthr] IS NULL) OR ([datInshthr] = @Original_datInshthr)) AND ((@IsNull_datTnshthr = 1 AND [datTnshthr] IS NULL) OR ([datTnshthr] = @Original_datTnshthr)) AND ((@IsNull_datTequDifPerF3 = 1 AND [datTequDifPerF3] IS NULL) OR ([datTequDifPerF3] = @Original_datTequDifPerF3)) AND ((@IsNull_datTequDifPerF7 = 1 AND [datTequDifPerF7] IS NULL) OR ([datTequDifPerF7] = @Original_datTequDifPerF7)) AND ((@IsNull_datTequDifPerF11 = 1 AND [datTequDifPerF11] IS NULL) OR ([datTequDifPerF11] = @Original_datTequDifPerF11)) AND ((@IsNull_datTequDifPerF15 = 1 AND [datTequDifPerF15] IS NULL) OR ([datTequDifPerF15] = @Original_datTequDifPerF15)) AND ((@IsNull_datTnshDifPerF3 = 1 AND [datTnshDifPerF3] IS NULL) OR ([datTnshDifPerF3] = @Original_datTnshDifPerF3)) AND ((@IsNull_datTnshDifPerF7 = 1 AND [datTnshDifPerF7] IS NULL) OR ([datTnshDifPerF7] = @Original_datTnshDifPerF7)) AND ((@IsNull_datTnshDifPerF11 = 1 AND [datTnshDifPerF11] IS NULL) OR ([datTnshDifPerF11] = @Original_datTnshDifPerF11)) AND ((@IsNull_datTnshDifPerF15 = 1 AND [datTnshDifPerF15] IS NULL) OR ([datTnshDifPerF15] = @Original_datTnshDifPerF15)) AND ((@IsNull_datIequDifPerF4 = 1 AND [datIequDifPerF4] IS NULL) OR ([datIequDifPerF4] = @Original_datIequDifPerF4)) AND ((@IsNull_datIequDifPerF8 = 1 AND [datIequDifPerF8] IS NULL) OR ([datIequDifPerF8] = @Original_datIequDifPerF8)) AND ((@IsNull_datIequDifPerF12 = 1 AND [datIequDifPerF12] IS NULL) OR ([datIequDifPerF12] = @Original_datIequDifPerF12)) AND ((@IsNull_datIequDifPerF16 = 1 AND [datIequDifPerF16] IS NULL) OR ([datIequDifPerF16] = @Original_datIequDifPerF16)) AND ((@IsNull_datInshDifPerF4 = 1 AND [datInshDifPerF4] IS NULL) OR ([datInshDifPerF4] = @Original_datInshDifPerF4)) AND ((@IsNull_datInshDifPerF8 = 1 AND [datInshDifPerF8] IS NULL) OR ([datInshDifPerF8] = @Original_datInshDifPerF8)) AND ((@IsNull_datInshDifPerF12 = 1 AND [datInshDifPerF12] IS NULL) OR ([datInshDifPerF12] = @Original_datInshDifPerF12)) AND ((@IsNull_datInshDifPerF16 = 1 AND [datInshDifPerF16] IS NULL) OR ([datInshDifPerF16] = @Original_datInshDifPerF16)) AND ((@IsNull_datTurkishAgreement = 1 AND [datTurkishAgreement] IS NULL) OR ([datTurkishAgreement] = @Original_datTurkishAgreement)) AND ((@IsNull_datIraqiAgreement = 1 AND [datIraqiAgreement] IS NULL) OR ([datIraqiAgreement] = @Original_datIraqiAgreement)) AND ((@IsNull_DataCreazione = 1 AND [DataCreazione] IS NULL) OR ([DataCreazione] = @Original_DataCreazione)) AND ((@IsNull_UtenteCreazione = 1 AND [UtenteCreazione] IS NULL) OR ([UtenteCreazione] = @Original_UtenteCreazione)) AND ((@IsNull_DataAggiornamento = 1 AND [DataAggiornamento] IS NULL) OR ([DataAggiornamento] = @Original_DataAggiornamento)) AND ((@IsNull_UtenteAggiornamento = 1 AND [UtenteAggiornamento] IS NULL) OR ([UtenteAggiornamento] = @Original_UtenteAggiornamento)) AND ((@IsNull_Annullato = 1 AND [Annullato] IS NULL) OR ([Annullato] = @Original_Annullato)) AND ((@IsNull_DataEstrazione = 1 AND [DataEstrazione] IS NULL) OR ([DataEstrazione] = @Original_DataEstrazione)) AND ([datID] = @Original_datID));
+SELECT datTmaxagrwat, datTminagrwat, datTindwat, datTminenewat, datTmaxintwat, datTpop, datTwatper, datTpopwat, datTeva, datTret, datImaxagrwat, datIminagrwat, datIindwat, datImarwat, datInavwat, datIpop, datIwatper, datIpopwat, datStotwat, datOwat, datTa, datTb, datTc, datTd, datTe, datTg, datTf, datTmaxpolintc, datIa, datIb, datIc, datTmarwat, datTnsh, datTsidpay, datInsh, datIsidpay, datTagrwat, datTnb, datF1, datF2, datF3, datF4, datF5, datF6, datF7, datF8, datF9, datF10, datF11, datF12, datF13, datF14, datF15, datF16, datF17, datF18, datIequthr, datTequthr, datInshthr, datTnshthr, datTequDifPerF3, datTequDifPerF7, datTequDifPerF11, datTequDifPerF15, datTnshDifPerF3, datTnshDifPerF7, datTnshDifPerF11, datTnshDifPerF15, datIequDifPerF4, datIequDifPerF8, datIequDifPerF12, datIequDifPerF16, datInshDifPerF4, datInshDifPerF8, datInshDifPerF12, datInshDifPerF16, datTurkishAgreement, datIraqiAgreement, DataCreazione, UtenteCreazione, DataAggiornamento, UtenteAggiornamento, Annullato, DataEstrazione, datID FROM data WHERE (datID = @datID)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [data] WHERE (((@IsNull_datTmaxagrwat = 1 AND [datTmaxagrwat] IS NULL) OR ([datTmaxagrwat] = @Original_datTmaxagrwat)) AND ((@IsNull_datTminagrwat = 1 AND [datTminagrwat] IS NULL) OR ([datTminagrwat] = @Original_datTminagrwat)) AND ((@IsNull_datTindwat = 1 AND [datTindwat] IS NULL) OR ([datTindwat] = @Original_datTindwat)) AND ((@IsNull_datTminenewat = 1 AND [datTminenewat] IS NULL) OR ([datTminenewat] = @Original_datTminenewat)) AND ((@IsNull_datTmaxintwat = 1 AND [datTmaxintwat] IS NULL) OR ([datTmaxintwat] = @Original_datTmaxintwat)) AND ((@IsNull_datTpop = 1 AND [datTpop] IS NULL) OR ([datTpop] = @Original_datTpop)) AND ((@IsNull_datTwatper = 1 AND [datTwatper] IS NULL) OR ([datTwatper] = @Original_datTwatper)) AND ((@IsNull_datTpopwat = 1 AND [datTpopwat] IS NULL) OR ([datTpopwat] = @Original_datTpopwat)) AND ((@IsNull_datTeva = 1 AND [datTeva] IS NULL) OR ([datTeva] = @Original_datTeva)) AND ((@IsNull_datTret = 1 AND [datTret] IS NULL) OR ([datTret] = @Original_datTret)) AND ((@IsNull_datImaxagrwat = 1 AND [datImaxagrwat] IS NULL) OR ([datImaxagrwat] = @Original_datImaxagrwat)) AND ((@IsNull_datIminagrwat = 1 AND [datIminagrwat] IS NULL) OR ([datIminagrwat] = @Original_datIminagrwat)) AND ((@IsNull_datIindwat = 1 AND [datIindwat] IS NULL) OR ([datIindwat] = @Original_datIindwat)) AND ((@IsNull_datImarwat = 1 AND [datImarwat] IS NULL) OR ([datImarwat] = @Original_datImarwat)) AND ((@IsNull_datInavwat = 1 AND [datInavwat] IS NULL) OR ([datInavwat] = @Original_datInavwat)) AND ((@IsNull_datIpop = 1 AND [datIpop] IS NULL) OR ([datIpop] = @Original_datIpop)) AND ((@IsNull_datIwatper = 1 AND [datIwatper] IS NULL) OR ([datIwatper] = @Original_datIwatper)) AND ((@IsNull_datIpopwat = 1 AND [datIpopwat] IS NULL) OR ([datIpopwat] = @Original_datIpopwat)) AND ((@IsNull_datStotwat = 1 AND [datStotwat] IS NULL) OR ([datStotwat] = @Original_datStotwat)) AND ((@IsNull_datOwat = 1 AND [datOwat] IS NULL) OR ([datOwat] = @Original_datOwat)) AND ((@IsNull_datTa = 1 AND [datTa] IS NULL) OR ([datTa] = @Original_datTa)) AND ((@IsNull_datTb = 1 AND [datTb] IS NULL) OR ([datTb] = @Original_datTb)) AND ((@IsNull_datTc = 1 AND [datTc] IS NULL) OR ([datTc] = @Original_datTc)) AND ((@IsNull_datTd = 1 AND [datTd] IS NULL) OR ([datTd] = @Original_datTd)) AND ((@IsNull_datTe = 1 AND [datTe] IS NULL) OR ([datTe] = @Original_datTe)) AND ((@IsNull_datTg = 1 AND [datTg] IS NULL) OR ([datTg] = @Original_datTg)) AND ((@IsNull_datTf = 1 AND [datTf] IS NULL) OR ([datTf] = @Original_datTf)) AND ((@IsNull_datTmaxpolintc = 1 AND [datTmaxpolintc] IS NULL) OR ([datTmaxpolintc] = @Original_datTmaxpolintc)) AND ((@IsNull_datIa = 1 AND [datIa] IS NULL) OR ([datIa] = @Original_datIa)) AND ((@IsNull_datIb = 1 AND [datIb] IS NULL) OR ([datIb] = @Original_datIb)) AND ((@IsNull_datIc = 1 AND [datIc] IS NULL) OR ([datIc] = @Original_datIc)) AND ((@IsNull_datTmarwat = 1 AND [datTmarwat] IS NULL) OR ([datTmarwat] = @Original_datTmarwat)) AND ((@IsNull_datTnsh = 1 AND [datTnsh] IS NULL) OR ([datTnsh] = @Original_datTnsh)) AND ((@IsNull_datTsidpay = 1 AND [datTsidpay] IS NULL) OR ([datTsidpay] = @Original_datTsidpay)) AND ((@IsNull_datInsh = 1 AND [datInsh] IS NULL) OR ([datInsh] = @Original_datInsh)) AND ((@IsNull_datIsidpay = 1 AND [datIsidpay] IS NULL) OR ([datIsidpay] = @Original_datIsidpay)) AND ((@IsNull_datTagrwat = 1 AND [datTagrwat] IS NULL) OR ([datTagrwat] = @Original_datTagrwat)) AND ((@IsNull_datTnb = 1 AND [datTnb] IS NULL) OR ([datTnb] = @Original_datTnb)) AND ((@IsNull_datF1 = 1 AND [datF1] IS NULL) OR ([datF1] = @Original_datF1)) AND ((@IsNull_datF2 = 1 AND [datF2] IS NULL) OR ([datF2] = @Original_datF2)) AND ((@IsNull_datF3 = 1 AND [datF3] IS NULL) OR ([datF3] = @Original_datF3)) AND ((@IsNull_datF4 = 1 AND [datF4] IS NULL) OR ([datF4] = @Original_datF4)) AND ((@IsNull_datF5 = 1 AND [datF5] IS NULL) OR ([datF5] = @Original_datF5)) AND ((@IsNull_datF6 = 1 AND [datF6] IS NULL) OR ([datF6] = @Original_datF6)) AND ((@IsNull_datF7 = 1 AND [datF7] IS NULL) OR ([datF7] = @Original_datF7)) AND ((@IsNull_datF8 = 1 AND [datF8] IS NULL) OR ([datF8] = @Original_datF8)) AND ((@IsNull_datF9 = 1 AND [datF9] IS NULL) OR ([datF9] = @Original_datF9)) AND ((@IsNull_datF10 = 1 AND [datF10] IS NULL) OR ([datF10] = @Original_datF10)) AND ((@IsNull_datF11 = 1 AND [datF11] IS NULL) OR ([datF11] = @Original_datF11)) AND ((@IsNull_datF12 = 1 AND [datF12] IS NULL) OR ([datF12] = @Original_datF12)) AND ((@IsNull_datF13 = 1 AND [datF13] IS NULL) OR ([datF13] = @Original_datF13)) AND ((@IsNull_datF14 = 1 AND [datF14] IS NULL) OR ([datF14] = @Original_datF14)) AND ((@IsNull_datF15 = 1 AND [datF15] IS NULL) OR ([datF15] = @Original_datF15)) AND ((@IsNull_datF16 = 1 AND [datF16] IS NULL) OR ([datF16] = @Original_datF16)) AND ((@IsNull_datF17 = 1 AND [datF17] IS NULL) OR ([datF17] = @Original_datF17)) AND ((@IsNull_datF18 = 1 AND [datF18] IS NULL) OR ([datF18] = @Original_datF18)) AND ((@IsNull_datIequthr = 1 AND [datIequthr] IS NULL) OR ([datIequthr] = @Original_datIequthr)) AND ((@IsNull_datTequthr = 1 AND [datTequthr] IS NULL) OR ([datTequthr] = @Original_datTequthr)) AND ((@IsNull_datInshthr = 1 AND [datInshthr] IS NULL) OR ([datInshthr] = @Original_datInshthr)) AND ((@IsNull_datTnshthr = 1 AND [datTnshthr] IS NULL) OR ([datTnshthr] = @Original_datTnshthr)) AND ((@IsNull_datTequDifPerF3 = 1 AND [datTequDifPerF3] IS NULL) OR ([datTequDifPerF3] = @Original_datTequDifPerF3)) AND ((@IsNull_datTequDifPerF7 = 1 AND [datTequDifPerF7] IS NULL) OR ([datTequDifPerF7] = @Original_datTequDifPerF7)) AND ((@IsNull_datTequDifPerF11 = 1 AND [datTequDifPerF11] IS NULL) OR ([datTequDifPerF11] = @Original_datTequDifPerF11)) AND ((@IsNull_datTequDifPerF15 = 1 AND [datTequDifPerF15] IS NULL) OR ([datTequDifPerF15] = @Original_datTequDifPerF15)) AND ((@IsNull_datTnshDifPerF3 = 1 AND [datTnshDifPerF3] IS NULL) OR ([datTnshDifPerF3] = @Original_datTnshDifPerF3)) AND ((@IsNull_datTnshDifPerF7 = 1 AND [datTnshDifPerF7] IS NULL) OR ([datTnshDifPerF7] = @Original_datTnshDifPerF7)) AND ((@IsNull_datTnshDifPerF11 = 1 AND [datTnshDifPerF11] IS NULL) OR ([datTnshDifPerF11] = @Original_datTnshDifPerF11)) AND ((@IsNull_datTnshDifPerF15 = 1 AND [datTnshDifPerF15] IS NULL) OR ([datTnshDifPerF15] = @Original_datTnshDifPerF15)) AND ((@IsNull_datIequDifPerF4 = 1 AND [datIequDifPerF4] IS NULL) OR ([datIequDifPerF4] = @Original_datIequDifPerF4)) AND ((@IsNull_datIequDifPerF8 = 1 AND [datIequDifPerF8] IS NULL) OR ([datIequDifPerF8] = @Original_datIequDifPerF8)) AND ((@IsNull_datIequDifPerF12 = 1 AND [datIequDifPerF12] IS NULL) OR ([datIequDifPerF12] = @Original_datIequDifPerF12)) AND ((@IsNull_datIequDifPerF16 = 1 AND [datIequDifPerF16] IS NULL) OR ([datIequDifPerF16] = @Original_datIequDifPerF16)) AND ((@IsNull_datInshDifPerF4 = 1 AND [datInshDifPerF4] IS NULL) OR ([datInshDifPerF4] = @Original_datInshDifPerF4)) AND ((@IsNull_datInshDifPerF8 = 1 AND [datInshDifPerF8] IS NULL) OR ([datInshDifPerF8] = @Original_datInshDifPerF8)) AND ((@IsNull_datInshDifPerF12 = 1 AND [datInshDifPerF12] IS NULL) OR ([datInshDifPerF12] = @Original_datInshDifPerF12)) AND ((@IsNull_datInshDifPerF16 = 1 AND [datInshDifPerF16] IS NULL) OR ([datInshDifPerF16] = @Original_datInshDifPerF16)) AND ((@IsNull_datTurkishAgreement = 1 AND [datTurkishAgreement] IS NULL) OR ([datTurkishAgreement] = @Original_datTurkishAgreement)) AND ((@IsNull_datIraqiAgreement = 1 AND [datIraqiAgreement] IS NULL) OR ([datIraqiAgreement] = @Original_datIraqiAgreement)) AND ((@IsNull_DataCreazione = 1 AND [DataCreazione] IS NULL) OR ([DataCreazione] = @Original_DataCreazione)) AND ((@IsNull_UtenteCreazione = 1 AND [UtenteCreazione] IS NULL) OR ([UtenteCreazione] = @Original_UtenteCreazione)) AND ((@IsNull_DataAggiornamento = 1 AND [DataAggiornamento] IS NULL) OR ([DataAggiornamento] = @Original_DataAggiornamento)) AND ((@IsNull_UtenteAggiornamento = 1 AND [UtenteAggiornamento] IS NULL) OR ([UtenteAggiornamento] = @Original_UtenteAggiornamento)) AND ((@IsNull_Annullato = 1 AND [Annullato] IS NULL) OR ([Annullato] = @Original_Annullato)) AND ((@IsNull_DataEstrazione = 1 AND [DataEstrazione] IS NULL) OR ([DataEstrazione] = @Original_DataEstrazione)) AND ([datID] = @Original_datID))</value>
+  </data>
+  <metadata name="DAData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>814, 56</value>
+  </metadata>
+  <metadata name="DAParameters.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>634, 95</value>
+  </metadata>
+  <metadata name="SqlCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="SqlCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="DSData.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DataTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>186, 56</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>108</value>
+  </metadata>
+</root>

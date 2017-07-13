@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NSSforTWJDataSet1" targetNamespace="http://tempuri.org/NSSforTWJDataSet1.xsd" xmlns:mstns="http://tempuri.org/NSSforTWJDataSet1.xsd" xmlns="http://tempuri.org/NSSforTWJDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="NSSforTWJConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="NSSforTWJConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MathematicaUI.My.MySettings.GlobalReference.Default.NSSforTWJConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="datiTableAdapter" GeneratorDataComponentClassName="datiTableAdapter" Name="dati" UserDataComponentName="datiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="NSSforTWJConnectionString (MySettings)" DbObjectName="NSSforTWJ.dbo.data" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     datID, datTmaxagrwat, datTminagrwat, datTindwat, datTminenewat, datTmaxintwat, datTpop, datTwatper, datTpopwat, datTeva, datTret, datImaxagrwat, 
+                      datIminagrwat, datIindwat, datImarwat, datInavwat, datIpop, datIwatper, datIpopwat, datStotwat, datOwat, datTa, datTb, datTc, datTd, datTe, datTg, datTf, 
+                      datTmaxpolintc, datIa, datIb, datIc, datTmarwat, datTnsh, datTsidpay, datInsh, datIsidpay, datTagrwat, datTnb, datF1, datF2, datF3, datF4, datF5, datF6, 
+                      datF7, datF8, datF9, datF10, datF11, datF12, datF13, datF14, datF15, datF16, datF17, datF18, datIequthr, datTequthr, datInshthr, datTnshthr, 
+                      datTequDifPerF3, datTequDifPerF7, datTequDifPerF11, datTequDifPerF15, datTnshDifPerF3, datTnshDifPerF7, datTnshDifPerF11, datTnshDifPerF15, 
+                      datIequDifPerF4, datIequDifPerF8, datIequDifPerF12, datIequDifPerF16, datInshDifPerF4, datInshDifPerF8, datInshDifPerF12, datInshDifPerF16, 
+                      datTurkishAgreement, datIraqiAgreement, DataCreazione, UtenteCreazione, DataAggiornamento, UtenteAggiornamento, Annullato, DataEstrazione
+FROM         data
+WHERE     datID = 1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="datID" DataSetColumn="datID" />
+              <Mapping SourceColumn="datTmaxagrwat" DataSetColumn="datTmaxagrwat" />
+              <Mapping SourceColumn="datTminagrwat" DataSetColumn="datTminagrwat" />
+              <Mapping SourceColumn="datTindwat" DataSetColumn="datTindwat" />
+              <Mapping SourceColumn="datTminenewat" DataSetColumn="datTminenewat" />
+              <Mapping SourceColumn="datTmaxintwat" DataSetColumn="datTmaxintwat" />
+              <Mapping SourceColumn="datTpop" DataSetColumn="datTpop" />
+              <Mapping SourceColumn="datTwatper" DataSetColumn="datTwatper" />
+              <Mapping SourceColumn="datTpopwat" DataSetColumn="datTpopwat" />
+              <Mapping SourceColumn="datTeva" DataSetColumn="datTeva" />
+              <Mapping SourceColumn="datTret" DataSetColumn="datTret" />
+              <Mapping SourceColumn="datImaxagrwat" DataSetColumn="datImaxagrwat" />
+              <Mapping SourceColumn="datIminagrwat" DataSetColumn="datIminagrwat" />
+              <Mapping SourceColumn="datIindwat" DataSetColumn="datIindwat" />
+              <Mapping SourceColumn="datImarwat" DataSetColumn="datImarwat" />
+              <Mapping SourceColumn="datInavwat" DataSetColumn="datInavwat" />
+              <Mapping SourceColumn="datIpop" DataSetColumn="datIpop" />
+              <Mapping SourceColumn="datIwatper" DataSetColumn="datIwatper" />
+              <Mapping SourceColumn="datIpopwat" DataSetColumn="datIpopwat" />
+              <Mapping SourceColumn="datStotwat" DataSetColumn="datStotwat" />
+              <Mapping SourceColumn="datOwat" DataSetColumn="datOwat" />
+              <Mapping SourceColumn="datTa" DataSetColumn="datTa" />
+              <Mapping SourceColumn="datTb" DataSetColumn="datTb" />
+              <Mapping SourceColumn="datTc" DataSetColumn="datTc" />
+              <Mapping SourceColumn="datTd" DataSetColumn="datTd" />
+              <Mapping SourceColumn="datTe" DataSetColumn="datTe" />
+              <Mapping SourceColumn="datTg" DataSetColumn="datTg" />
+              <Mapping SourceColumn="datTf" DataSetColumn="datTf" />
+              <Mapping SourceColumn="datTmaxpolintc" DataSetColumn="datTmaxpolintc" />
+              <Mapping SourceColumn="datIa" DataSetColumn="datIa" />
+              <Mapping SourceColumn="datIb" DataSetColumn="datIb" />
+              <Mapping SourceColumn="datIc" DataSetColumn="datIc" />
+              <Mapping SourceColumn="datTmarwat" DataSetColumn="datTmarwat" />
+              <Mapping SourceColumn="datTnsh" DataSetColumn="datTnsh" />
+              <Mapping SourceColumn="datTsidpay" DataSetColumn="datTsidpay" />
+              <Mapping SourceColumn="datInsh" DataSetColumn="datInsh" />
+              <Mapping SourceColumn="datIsidpay" DataSetColumn="datIsidpay" />
+              <Mapping SourceColumn="datTagrwat" DataSetColumn="datTagrwat" />
+              <Mapping SourceColumn="datTnb" DataSetColumn="datTnb" />
+              <Mapping SourceColumn="datF1" DataSetColumn="datF1" />
+              <Mapping SourceColumn="datF2" DataSetColumn="datF2" />
+              <Mapping SourceColumn="datF3" DataSetColumn="datF3" />
+              <Mapping SourceColumn="datF4" DataSetColumn="datF4" />
+              <Mapping SourceColumn="datF5" DataSetColumn="datF5" />
+              <Mapping SourceColumn="datF6" DataSetColumn="datF6" />
+              <Mapping SourceColumn="datF7" DataSetColumn="datF7" />
+              <Mapping SourceColumn="datF8" DataSetColumn="datF8" />
+              <Mapping SourceColumn="datF9" DataSetColumn="datF9" />
+              <Mapping SourceColumn="datF10" DataSetColumn="datF10" />
+              <Mapping SourceColumn="datF11" DataSetColumn="datF11" />
+              <Mapping SourceColumn="datF12" DataSetColumn="datF12" />
+              <Mapping SourceColumn="datF13" DataSetColumn="datF13" />
+              <Mapping SourceColumn="datF14" DataSetColumn="datF14" />
+              <Mapping SourceColumn="datF15" DataSetColumn="datF15" />
+              <Mapping SourceColumn="datF16" DataSetColumn="datF16" />
+              <Mapping SourceColumn="datF17" DataSetColumn="datF17" />
+              <Mapping SourceColumn="datF18" DataSetColumn="datF18" />
+              <Mapping SourceColumn="datIequthr" DataSetColumn="datIequthr" />
+              <Mapping SourceColumn="datTequthr" DataSetColumn="datTequthr" />
+              <Mapping SourceColumn="datInshthr" DataSetColumn="datInshthr" />
+              <Mapping SourceColumn="datTnshthr" DataSetColumn="datTnshthr" />
+              <Mapping SourceColumn="datTequDifPerF3" DataSetColumn="datTequDifPerF3" />
+              <Mapping SourceColumn="datTequDifPerF7" DataSetColumn="datTequDifPerF7" />
+              <Mapping SourceColumn="datTequDifPerF11" DataSetColumn="datTequDifPerF11" />
+              <Mapping SourceColumn="datTequDifPerF15" DataSetColumn="datTequDifPerF15" />
+              <Mapping SourceColumn="datTnshDifPerF3" DataSetColumn="datTnshDifPerF3" />
+              <Mapping SourceColumn="datTnshDifPerF7" DataSetColumn="datTnshDifPerF7" />
+              <Mapping SourceColumn="datTnshDifPerF11" DataSetColumn="datTnshDifPerF11" />
+              <Mapping SourceColumn="datTnshDifPerF15" DataSetColumn="datTnshDifPerF15" />
+              <Mapping SourceColumn="datIequDifPerF4" DataSetColumn="datIequDifPerF4" />
+              <Mapping SourceColumn="datIequDifPerF8" DataSetColumn="datIequDifPerF8" />
+              <Mapping SourceColumn="datIequDifPerF12" DataSetColumn="datIequDifPerF12" />
+              <Mapping SourceColumn="datIequDifPerF16" DataSetColumn="datIequDifPerF16" />
+              <Mapping SourceColumn="datInshDifPerF4" DataSetColumn="datInshDifPerF4" />
+              <Mapping SourceColumn="datInshDifPerF8" DataSetColumn="datInshDifPerF8" />
+              <Mapping SourceColumn="datInshDifPerF12" DataSetColumn="datInshDifPerF12" />
+              <Mapping SourceColumn="datInshDifPerF16" DataSetColumn="datInshDifPerF16" />
+              <Mapping SourceColumn="datTurkishAgreement" DataSetColumn="datTurkishAgreement" />
+              <Mapping SourceColumn="datIraqiAgreement" DataSetColumn="datIraqiAgreement" />
+              <Mapping SourceColumn="DataCreazione" DataSetColumn="DataCreazione" />
+              <Mapping SourceColumn="UtenteCreazione" DataSetColumn="UtenteCreazione" />
+              <Mapping SourceColumn="DataAggiornamento" DataSetColumn="DataAggiornamento" />
+              <Mapping SourceColumn="UtenteAggiornamento" DataSetColumn="UtenteAggiornamento" />
+              <Mapping SourceColumn="Annullato" DataSetColumn="Annullato" />
+              <Mapping SourceColumn="DataEstrazione" DataSetColumn="DataEstrazione" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="NSSforTWJDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="NSSforTWJDataSet1" msprop:Generator_UserDSName="NSSforTWJDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dati" msprop:Generator_UserTableName="dati" msprop:Generator_RowEvArgName="datiRowChangeEvent" msprop:Generator_TableVarName="tabledati" msprop:Generator_TablePropName="dati" msprop:Generator_RowDeletingName="datiRowDeleting" msprop:Generator_RowChangingName="datiRowChanging" msprop:Generator_RowDeletedName="datiRowDeleted" msprop:Generator_RowEvHandlerName="datiRowChangeEventHandler" msprop:Generator_TableClassName="datiDataTable" msprop:Generator_RowChangedName="datiRowChanged" msprop:Generator_RowClassName="datiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datID" msprop:Generator_ColumnVarNameInTable="columndatID" msprop:Generator_ColumnPropNameInRow="datID" msprop:Generator_ColumnPropNameInTable="datIDColumn" msprop:Generator_UserColumnName="datID" type="xs:int" />
+              <xs:element name="datTmaxagrwat" msprop:Generator_ColumnVarNameInTable="columndatTmaxagrwat" msprop:Generator_ColumnPropNameInRow="datTmaxagrwat" msprop:Generator_ColumnPropNameInTable="datTmaxagrwatColumn" msprop:Generator_UserColumnName="datTmaxagrwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTminagrwat" msprop:Generator_ColumnVarNameInTable="columndatTminagrwat" msprop:Generator_ColumnPropNameInRow="datTminagrwat" msprop:Generator_ColumnPropNameInTable="datTminagrwatColumn" msprop:Generator_UserColumnName="datTminagrwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTindwat" msprop:Generator_ColumnVarNameInTable="columndatTindwat" msprop:Generator_ColumnPropNameInRow="datTindwat" msprop:Generator_ColumnPropNameInTable="datTindwatColumn" msprop:Generator_UserColumnName="datTindwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTminenewat" msprop:Generator_ColumnVarNameInTable="columndatTminenewat" msprop:Generator_ColumnPropNameInRow="datTminenewat" msprop:Generator_ColumnPropNameInTable="datTminenewatColumn" msprop:Generator_UserColumnName="datTminenewat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTmaxintwat" msprop:Generator_ColumnVarNameInTable="columndatTmaxintwat" msprop:Generator_ColumnPropNameInRow="datTmaxintwat" msprop:Generator_ColumnPropNameInTable="datTmaxintwatColumn" msprop:Generator_UserColumnName="datTmaxintwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTpop" msprop:Generator_ColumnVarNameInTable="columndatTpop" msprop:Generator_ColumnPropNameInRow="datTpop" msprop:Generator_ColumnPropNameInTable="datTpopColumn" msprop:Generator_UserColumnName="datTpop" type="xs:double" minOccurs="0" />
+              <xs:element name="datTwatper" msprop:Generator_ColumnVarNameInTable="columndatTwatper" msprop:Generator_ColumnPropNameInRow="datTwatper" msprop:Generator_ColumnPropNameInTable="datTwatperColumn" msprop:Generator_UserColumnName="datTwatper" type="xs:double" minOccurs="0" />
+              <xs:element name="datTpopwat" msprop:Generator_ColumnVarNameInTable="columndatTpopwat" msprop:Generator_ColumnPropNameInRow="datTpopwat" msprop:Generator_ColumnPropNameInTable="datTpopwatColumn" msprop:Generator_UserColumnName="datTpopwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTeva" msprop:Generator_ColumnVarNameInTable="columndatTeva" msprop:Generator_ColumnPropNameInRow="datTeva" msprop:Generator_ColumnPropNameInTable="datTevaColumn" msprop:Generator_UserColumnName="datTeva" type="xs:double" minOccurs="0" />
+              <xs:element name="datTret" msprop:Generator_ColumnVarNameInTable="columndatTret" msprop:Generator_ColumnPropNameInRow="datTret" msprop:Generator_ColumnPropNameInTable="datTretColumn" msprop:Generator_UserColumnName="datTret" type="xs:double" minOccurs="0" />
+              <xs:element name="datImaxagrwat" msprop:Generator_ColumnVarNameInTable="columndatImaxagrwat" msprop:Generator_ColumnPropNameInRow="datImaxagrwat" msprop:Generator_ColumnPropNameInTable="datImaxagrwatColumn" msprop:Generator_UserColumnName="datImaxagrwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datIminagrwat" msprop:Generator_ColumnVarNameInTable="columndatIminagrwat" msprop:Generator_ColumnPropNameInRow="datIminagrwat" msprop:Generator_ColumnPropNameInTable="datIminagrwatColumn" msprop:Generator_UserColumnName="datIminagrwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datIindwat" msprop:Generator_ColumnVarNameInTable="columndatIindwat" msprop:Generator_ColumnPropNameInRow="datIindwat" msprop:Generator_ColumnPropNameInTable="datIindwatColumn" msprop:Generator_UserColumnName="datIindwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datImarwat" msprop:Generator_ColumnVarNameInTable="columndatImarwat" msprop:Generator_ColumnPropNameInRow="datImarwat" msprop:Generator_ColumnPropNameInTable="datImarwatColumn" msprop:Generator_UserColumnName="datImarwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datInavwat" msprop:Generator_ColumnVarNameInTable="columndatInavwat" msprop:Generator_ColumnPropNameInRow="datInavwat" msprop:Generator_ColumnPropNameInTable="datInavwatColumn" msprop:Generator_UserColumnName="datInavwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datIpop" msprop:Generator_ColumnVarNameInTable="columndatIpop" msprop:Generator_ColumnPropNameInRow="datIpop" msprop:Generator_ColumnPropNameInTable="datIpopColumn" msprop:Generator_UserColumnName="datIpop" type="xs:double" minOccurs="0" />
+              <xs:element name="datIwatper" msprop:Generator_ColumnVarNameInTable="columndatIwatper" msprop:Generator_ColumnPropNameInRow="datIwatper" msprop:Generator_ColumnPropNameInTable="datIwatperColumn" msprop:Generator_UserColumnName="datIwatper" type="xs:double" minOccurs="0" />
+              <xs:element name="datIpopwat" msprop:Generator_ColumnVarNameInTable="columndatIpopwat" msprop:Generator_ColumnPropNameInRow="datIpopwat" msprop:Generator_ColumnPropNameInTable="datIpopwatColumn" msprop:Generator_UserColumnName="datIpopwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datStotwat" msprop:Generator_ColumnVarNameInTable="columndatStotwat" msprop:Generator_ColumnPropNameInRow="datStotwat" msprop:Generator_ColumnPropNameInTable="datStotwatColumn" msprop:Generator_UserColumnName="datStotwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datOwat" msprop:Generator_ColumnVarNameInTable="columndatOwat" msprop:Generator_ColumnPropNameInRow="datOwat" msprop:Generator_ColumnPropNameInTable="datOwatColumn" msprop:Generator_UserColumnName="datOwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTa" msprop:Generator_ColumnVarNameInTable="columndatTa" msprop:Generator_ColumnPropNameInRow="datTa" msprop:Generator_ColumnPropNameInTable="datTaColumn" msprop:Generator_UserColumnName="datTa" type="xs:double" minOccurs="0" />
+              <xs:element name="datTb" msprop:Generator_ColumnVarNameInTable="columndatTb" msprop:Generator_ColumnPropNameInRow="datTb" msprop:Generator_ColumnPropNameInTable="datTbColumn" msprop:Generator_UserColumnName="datTb" type="xs:double" minOccurs="0" />
+              <xs:element name="datTc" msprop:Generator_ColumnVarNameInTable="columndatTc" msprop:Generator_ColumnPropNameInRow="datTc" msprop:Generator_ColumnPropNameInTable="datTcColumn" msprop:Generator_UserColumnName="datTc" type="xs:double" minOccurs="0" />
+              <xs:element name="datTd" msprop:Generator_ColumnVarNameInTable="columndatTd" msprop:Generator_ColumnPropNameInRow="datTd" msprop:Generator_ColumnPropNameInTable="datTdColumn" msprop:Generator_UserColumnName="datTd" type="xs:double" minOccurs="0" />
+              <xs:element name="datTe" msprop:Generator_ColumnVarNameInTable="columndatTe" msprop:Generator_ColumnPropNameInRow="datTe" msprop:Generator_ColumnPropNameInTable="datTeColumn" msprop:Generator_UserColumnName="datTe" type="xs:double" minOccurs="0" />
+              <xs:element name="datTg" msprop:Generator_ColumnVarNameInTable="columndatTg" msprop:Generator_ColumnPropNameInRow="datTg" msprop:Generator_ColumnPropNameInTable="datTgColumn" msprop:Generator_UserColumnName="datTg" type="xs:double" minOccurs="0" />
+              <xs:element name="datTf" msprop:Generator_ColumnVarNameInTable="columndatTf" msprop:Generator_ColumnPropNameInRow="datTf" msprop:Generator_ColumnPropNameInTable="datTfColumn" msprop:Generator_UserColumnName="datTf" type="xs:double" minOccurs="0" />
+              <xs:element name="datTmaxpolintc" msprop:Generator_ColumnVarNameInTable="columndatTmaxpolintc" msprop:Generator_ColumnPropNameInRow="datTmaxpolintc" msprop:Generator_ColumnPropNameInTable="datTmaxpolintcColumn" msprop:Generator_UserColumnName="datTmaxpolintc" type="xs:double" minOccurs="0" />
+              <xs:element name="datIa" msprop:Generator_ColumnVarNameInTable="columndatIa" msprop:Generator_ColumnPropNameInRow="datIa" msprop:Generator_ColumnPropNameInTable="datIaColumn" msprop:Generator_UserColumnName="datIa" type="xs:double" minOccurs="0" />
+              <xs:element name="datIb" msprop:Generator_ColumnVarNameInTable="columndatIb" msprop:Generator_ColumnPropNameInRow="datIb" msprop:Generator_ColumnPropNameInTable="datIbColumn" msprop:Generator_UserColumnName="datIb" type="xs:double" minOccurs="0" />
+              <xs:element name="datIc" msprop:Generator_ColumnVarNameInTable="columndatIc" msprop:Generator_ColumnPropNameInRow="datIc" msprop:Generator_ColumnPropNameInTable="datIcColumn" msprop:Generator_UserColumnName="datIc" type="xs:double" minOccurs="0" />
+              <xs:element name="datTmarwat" msprop:Generator_ColumnVarNameInTable="columndatTmarwat" msprop:Generator_ColumnPropNameInRow="datTmarwat" msprop:Generator_ColumnPropNameInTable="datTmarwatColumn" msprop:Generator_UserColumnName="datTmarwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnsh" msprop:Generator_ColumnVarNameInTable="columndatTnsh" msprop:Generator_ColumnPropNameInRow="datTnsh" msprop:Generator_ColumnPropNameInTable="datTnshColumn" msprop:Generator_UserColumnName="datTnsh" type="xs:double" minOccurs="0" />
+              <xs:element name="datTsidpay" msprop:Generator_ColumnVarNameInTable="columndatTsidpay" msprop:Generator_ColumnPropNameInRow="datTsidpay" msprop:Generator_ColumnPropNameInTable="datTsidpayColumn" msprop:Generator_UserColumnName="datTsidpay" type="xs:double" minOccurs="0" />
+              <xs:element name="datInsh" msprop:Generator_ColumnVarNameInTable="columndatInsh" msprop:Generator_ColumnPropNameInRow="datInsh" msprop:Generator_ColumnPropNameInTable="datInshColumn" msprop:Generator_UserColumnName="datInsh" type="xs:double" minOccurs="0" />
+              <xs:element name="datIsidpay" msprop:Generator_ColumnVarNameInTable="columndatIsidpay" msprop:Generator_ColumnPropNameInRow="datIsidpay" msprop:Generator_ColumnPropNameInTable="datIsidpayColumn" msprop:Generator_UserColumnName="datIsidpay" type="xs:double" minOccurs="0" />
+              <xs:element name="datTagrwat" msprop:Generator_ColumnVarNameInTable="columndatTagrwat" msprop:Generator_ColumnPropNameInRow="datTagrwat" msprop:Generator_ColumnPropNameInTable="datTagrwatColumn" msprop:Generator_UserColumnName="datTagrwat" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnb" msprop:Generator_ColumnVarNameInTable="columndatTnb" msprop:Generator_ColumnPropNameInRow="datTnb" msprop:Generator_ColumnPropNameInTable="datTnbColumn" msprop:Generator_UserColumnName="datTnb" type="xs:double" minOccurs="0" />
+              <xs:element name="datF1" msprop:Generator_ColumnVarNameInTable="columndatF1" msprop:Generator_ColumnPropNameInRow="datF1" msprop:Generator_ColumnPropNameInTable="datF1Column" msprop:Generator_UserColumnName="datF1" type="xs:double" minOccurs="0" />
+              <xs:element name="datF2" msprop:Generator_ColumnVarNameInTable="columndatF2" msprop:Generator_ColumnPropNameInRow="datF2" msprop:Generator_ColumnPropNameInTable="datF2Column" msprop:Generator_UserColumnName="datF2" type="xs:double" minOccurs="0" />
+              <xs:element name="datF3" msprop:Generator_ColumnVarNameInTable="columndatF3" msprop:Generator_ColumnPropNameInRow="datF3" msprop:Generator_ColumnPropNameInTable="datF3Column" msprop:Generator_UserColumnName="datF3" type="xs:double" minOccurs="0" />
+              <xs:element name="datF4" msprop:Generator_ColumnVarNameInTable="columndatF4" msprop:Generator_ColumnPropNameInRow="datF4" msprop:Generator_ColumnPropNameInTable="datF4Column" msprop:Generator_UserColumnName="datF4" type="xs:double" minOccurs="0" />
+              <xs:element name="datF5" msprop:Generator_ColumnVarNameInTable="columndatF5" msprop:Generator_ColumnPropNameInRow="datF5" msprop:Generator_ColumnPropNameInTable="datF5Column" msprop:Generator_UserColumnName="datF5" type="xs:double" minOccurs="0" />
+              <xs:element name="datF6" msprop:Generator_ColumnVarNameInTable="columndatF6" msprop:Generator_ColumnPropNameInRow="datF6" msprop:Generator_ColumnPropNameInTable="datF6Column" msprop:Generator_UserColumnName="datF6" type="xs:double" minOccurs="0" />
+              <xs:element name="datF7" msprop:Generator_ColumnVarNameInTable="columndatF7" msprop:Generator_ColumnPropNameInRow="datF7" msprop:Generator_ColumnPropNameInTable="datF7Column" msprop:Generator_UserColumnName="datF7" type="xs:double" minOccurs="0" />
+              <xs:element name="datF8" msprop:Generator_ColumnVarNameInTable="columndatF8" msprop:Generator_ColumnPropNameInRow="datF8" msprop:Generator_ColumnPropNameInTable="datF8Column" msprop:Generator_UserColumnName="datF8" type="xs:double" minOccurs="0" />
+              <xs:element name="datF9" msprop:Generator_ColumnVarNameInTable="columndatF9" msprop:Generator_ColumnPropNameInRow="datF9" msprop:Generator_ColumnPropNameInTable="datF9Column" msprop:Generator_UserColumnName="datF9" type="xs:double" minOccurs="0" />
+              <xs:element name="datF10" msprop:Generator_ColumnVarNameInTable="columndatF10" msprop:Generator_ColumnPropNameInRow="datF10" msprop:Generator_ColumnPropNameInTable="datF10Column" msprop:Generator_UserColumnName="datF10" type="xs:double" minOccurs="0" />
+              <xs:element name="datF11" msprop:Generator_ColumnVarNameInTable="columndatF11" msprop:Generator_ColumnPropNameInRow="datF11" msprop:Generator_ColumnPropNameInTable="datF11Column" msprop:Generator_UserColumnName="datF11" type="xs:double" minOccurs="0" />
+              <xs:element name="datF12" msprop:Generator_ColumnVarNameInTable="columndatF12" msprop:Generator_ColumnPropNameInRow="datF12" msprop:Generator_ColumnPropNameInTable="datF12Column" msprop:Generator_UserColumnName="datF12" type="xs:double" minOccurs="0" />
+              <xs:element name="datF13" msprop:Generator_ColumnVarNameInTable="columndatF13" msprop:Generator_ColumnPropNameInRow="datF13" msprop:Generator_ColumnPropNameInTable="datF13Column" msprop:Generator_UserColumnName="datF13" type="xs:double" minOccurs="0" />
+              <xs:element name="datF14" msprop:Generator_ColumnVarNameInTable="columndatF14" msprop:Generator_ColumnPropNameInRow="datF14" msprop:Generator_ColumnPropNameInTable="datF14Column" msprop:Generator_UserColumnName="datF14" type="xs:double" minOccurs="0" />
+              <xs:element name="datF15" msprop:Generator_ColumnVarNameInTable="columndatF15" msprop:Generator_ColumnPropNameInRow="datF15" msprop:Generator_ColumnPropNameInTable="datF15Column" msprop:Generator_UserColumnName="datF15" type="xs:double" minOccurs="0" />
+              <xs:element name="datF16" msprop:Generator_ColumnVarNameInTable="columndatF16" msprop:Generator_ColumnPropNameInRow="datF16" msprop:Generator_ColumnPropNameInTable="datF16Column" msprop:Generator_UserColumnName="datF16" type="xs:double" minOccurs="0" />
+              <xs:element name="datF17" msprop:Generator_ColumnVarNameInTable="columndatF17" msprop:Generator_ColumnPropNameInRow="datF17" msprop:Generator_ColumnPropNameInTable="datF17Column" msprop:Generator_UserColumnName="datF17" type="xs:double" minOccurs="0" />
+              <xs:element name="datF18" msprop:Generator_ColumnVarNameInTable="columndatF18" msprop:Generator_ColumnPropNameInRow="datF18" msprop:Generator_ColumnPropNameInTable="datF18Column" msprop:Generator_UserColumnName="datF18" type="xs:double" minOccurs="0" />
+              <xs:element name="datIequthr" msprop:Generator_ColumnVarNameInTable="columndatIequthr" msprop:Generator_ColumnPropNameInRow="datIequthr" msprop:Generator_ColumnPropNameInTable="datIequthrColumn" msprop:Generator_UserColumnName="datIequthr" type="xs:double" minOccurs="0" />
+              <xs:element name="datTequthr" msprop:Generator_ColumnVarNameInTable="columndatTequthr" msprop:Generator_ColumnPropNameInRow="datTequthr" msprop:Generator_ColumnPropNameInTable="datTequthrColumn" msprop:Generator_UserColumnName="datTequthr" type="xs:double" minOccurs="0" />
+              <xs:element name="datInshthr" msprop:Generator_ColumnVarNameInTable="columndatInshthr" msprop:Generator_ColumnPropNameInRow="datInshthr" msprop:Generator_ColumnPropNameInTable="datInshthrColumn" msprop:Generator_UserColumnName="datInshthr" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnshthr" msprop:Generator_ColumnVarNameInTable="columndatTnshthr" msprop:Generator_ColumnPropNameInRow="datTnshthr" msprop:Generator_ColumnPropNameInTable="datTnshthrColumn" msprop:Generator_UserColumnName="datTnshthr" type="xs:double" minOccurs="0" />
+              <xs:element name="datTequDifPerF3" msprop:Generator_ColumnVarNameInTable="columndatTequDifPerF3" msprop:Generator_ColumnPropNameInRow="datTequDifPerF3" msprop:Generator_ColumnPropNameInTable="datTequDifPerF3Column" msprop:Generator_UserColumnName="datTequDifPerF3" type="xs:double" minOccurs="0" />
+              <xs:element name="datTequDifPerF7" msprop:Generator_ColumnVarNameInTable="columndatTequDifPerF7" msprop:Generator_ColumnPropNameInRow="datTequDifPerF7" msprop:Generator_ColumnPropNameInTable="datTequDifPerF7Column" msprop:Generator_UserColumnName="datTequDifPerF7" type="xs:double" minOccurs="0" />
+              <xs:element name="datTequDifPerF11" msprop:Generator_ColumnVarNameInTable="columndatTequDifPerF11" msprop:Generator_ColumnPropNameInRow="datTequDifPerF11" msprop:Generator_ColumnPropNameInTable="datTequDifPerF11Column" msprop:Generator_UserColumnName="datTequDifPerF11" type="xs:double" minOccurs="0" />
+              <xs:element name="datTequDifPerF15" msprop:Generator_ColumnVarNameInTable="columndatTequDifPerF15" msprop:Generator_ColumnPropNameInRow="datTequDifPerF15" msprop:Generator_ColumnPropNameInTable="datTequDifPerF15Column" msprop:Generator_UserColumnName="datTequDifPerF15" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnshDifPerF3" msprop:Generator_ColumnVarNameInTable="columndatTnshDifPerF3" msprop:Generator_ColumnPropNameInRow="datTnshDifPerF3" msprop:Generator_ColumnPropNameInTable="datTnshDifPerF3Column" msprop:Generator_UserColumnName="datTnshDifPerF3" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnshDifPerF7" msprop:Generator_ColumnVarNameInTable="columndatTnshDifPerF7" msprop:Generator_ColumnPropNameInRow="datTnshDifPerF7" msprop:Generator_ColumnPropNameInTable="datTnshDifPerF7Column" msprop:Generator_UserColumnName="datTnshDifPerF7" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnshDifPerF11" msprop:Generator_ColumnVarNameInTable="columndatTnshDifPerF11" msprop:Generator_ColumnPropNameInRow="datTnshDifPerF11" msprop:Generator_ColumnPropNameInTable="datTnshDifPerF11Column" msprop:Generator_UserColumnName="datTnshDifPerF11" type="xs:double" minOccurs="0" />
+              <xs:element name="datTnshDifPerF15" msprop:Generator_ColumnVarNameInTable="columndatTnshDifPerF15" msprop:Generator_ColumnPropNameInRow="datTnshDifPerF15" msprop:Generator_ColumnPropNameInTable="datTnshDifPerF15Column" msprop:Generator_UserColumnName="datTnshDifPerF15" type="xs:double" minOccurs="0" />
+              <xs:element name="datIequDifPerF4" msprop:Generator_ColumnVarNameInTable="columndatIequDifPerF4" msprop:Generator_ColumnPropNameInRow="datIequDifPerF4" msprop:Generator_ColumnPropNameInTable="datIequDifPerF4Column" msprop:Generator_UserColumnName="datIequDifPerF4" type="xs:double" minOccurs="0" />
+              <xs:element name="datIequDifPerF8" msprop:Generator_ColumnVarNameInTable="columndatIequDifPerF8" msprop:Generator_ColumnPropNameInRow="datIequDifPerF8" msprop:Generator_ColumnPropNameInTable="datIequDifPerF8Column" msprop:Generator_UserColumnName="datIequDifPerF8" type="xs:double" minOccurs="0" />
+              <xs:element name="datIequDifPerF12" msprop:Generator_ColumnVarNameInTable="columndatIequDifPerF12" msprop:Generator_ColumnPropNameInRow="datIequDifPerF12" msprop:Generator_ColumnPropNameInTable="datIequDifPerF12Column" msprop:Generator_UserColumnName="datIequDifPerF12" type="xs:double" minOccurs="0" />
+              <xs:element name="datIequDifPerF16" msprop:Generator_ColumnVarNameInTable="columndatIequDifPerF16" msprop:Generator_ColumnPropNameInRow="datIequDifPerF16" msprop:Generator_ColumnPropNameInTable="datIequDifPerF16Column" msprop:Generator_UserColumnName="datIequDifPerF16" type="xs:double" minOccurs="0" />
+              <xs:element name="datInshDifPerF4" msprop:Generator_ColumnVarNameInTable="columndatInshDifPerF4" msprop:Generator_ColumnPropNameInRow="datInshDifPerF4" msprop:Generator_ColumnPropNameInTable="datInshDifPerF4Column" msprop:Generator_UserColumnName="datInshDifPerF4" type="xs:double" minOccurs="0" />
+              <xs:element name="datInshDifPerF8" msprop:Generator_ColumnVarNameInTable="columndatInshDifPerF8" msprop:Generator_ColumnPropNameInRow="datInshDifPerF8" msprop:Generator_ColumnPropNameInTable="datInshDifPerF8Column" msprop:Generator_UserColumnName="datInshDifPerF8" type="xs:double" minOccurs="0" />
+              <xs:element name="datInshDifPerF12" msprop:Generator_ColumnVarNameInTable="columndatInshDifPerF12" msprop:Generator_ColumnPropNameInRow="datInshDifPerF12" msprop:Generator_ColumnPropNameInTable="datInshDifPerF12Column" msprop:Generator_UserColumnName="datInshDifPerF12" type="xs:double" minOccurs="0" />
+              <xs:element name="datInshDifPerF16" msprop:Generator_ColumnVarNameInTable="columndatInshDifPerF16" msprop:Generator_ColumnPropNameInRow="datInshDifPerF16" msprop:Generator_ColumnPropNameInTable="datInshDifPerF16Column" msprop:Generator_UserColumnName="datInshDifPerF16" type="xs:double" minOccurs="0" />
+              <xs:element name="datTurkishAgreement" msprop:Generator_ColumnVarNameInTable="columndatTurkishAgreement" msprop:Generator_ColumnPropNameInRow="datTurkishAgreement" msprop:Generator_ColumnPropNameInTable="datTurkishAgreementColumn" msprop:Generator_UserColumnName="datTurkishAgreement" type="xs:boolean" minOccurs="0" />
+              <xs:element name="datIraqiAgreement" msprop:Generator_ColumnVarNameInTable="columndatIraqiAgreement" msprop:Generator_ColumnPropNameInRow="datIraqiAgreement" msprop:Generator_ColumnPropNameInTable="datIraqiAgreementColumn" msprop:Generator_UserColumnName="datIraqiAgreement" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DataCreazione" msprop:Generator_ColumnVarNameInTable="columnDataCreazione" msprop:Generator_ColumnPropNameInRow="DataCreazione" msprop:Generator_ColumnPropNameInTable="DataCreazioneColumn" msprop:Generator_UserColumnName="DataCreazione" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UtenteCreazione" msprop:Generator_ColumnVarNameInTable="columnUtenteCreazione" msprop:Generator_ColumnPropNameInRow="UtenteCreazione" msprop:Generator_ColumnPropNameInTable="UtenteCreazioneColumn" msprop:Generator_UserColumnName="UtenteCreazione" type="xs:int" minOccurs="0" />
+              <xs:element name="DataAggiornamento" msprop:Generator_ColumnVarNameInTable="columnDataAggiornamento" msprop:Generator_ColumnPropNameInRow="DataAggiornamento" msprop:Generator_ColumnPropNameInTable="DataAggiornamentoColumn" msprop:Generator_UserColumnName="DataAggiornamento" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UtenteAggiornamento" msprop:Generator_ColumnVarNameInTable="columnUtenteAggiornamento" msprop:Generator_ColumnPropNameInRow="UtenteAggiornamento" msprop:Generator_ColumnPropNameInTable="UtenteAggiornamentoColumn" msprop:Generator_UserColumnName="UtenteAggiornamento" type="xs:int" minOccurs="0" />
+              <xs:element name="Annullato" msprop:Generator_ColumnVarNameInTable="columnAnnullato" msprop:Generator_ColumnPropNameInRow="Annullato" msprop:Generator_ColumnPropNameInTable="AnnullatoColumn" msprop:Generator_UserColumnName="Annullato" type="xs:boolean" minOccurs="0" />
+              <xs:element name="DataEstrazione" msprop:Generator_ColumnVarNameInTable="columnDataEstrazione" msprop:Generator_ColumnPropNameInRow="DataEstrazione" msprop:Generator_ColumnPropNameInTable="DataEstrazioneColumn" msprop:Generator_UserColumnName="DataEstrazione" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dati" />
+      <xs:field xpath="mstns:datID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

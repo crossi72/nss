@@ -1,0 +1,6 @@
+C:\Lavoro\NSS\soluzione\bin\Debug\MathematicaUI.exe.config
+C:\Lavoro\NSS\soluzione\obj\Debug\ResolveAssemblyReference.cache
+C:\Lavoro\NSS\soluzione\obj\Debug\MathematicaUI.frmNegotiation.resources
+C:\Lavoro\NSS\soluzione\obj\Debug\MathematicaUI.frmParameters.resources
+C:\Lavoro\NSS\soluzione\obj\Debug\MathematicaUI.Resources.resources
+C:\Lavoro\NSS\soluzione\obj\Debug\NSSforTWJ.vbproj.GenerateResource.Cache

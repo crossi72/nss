@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="oldIraqiConstraints" targetNamespace="http://tempuri.org/oldIraqiConstraints.xsd" xmlns:mstns="http://tempuri.org/oldIraqiConstraints.xsd" xmlns="http://tempuri.org/oldIraqiConstraints.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="NSSforTWJConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="NSSforTWJConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.MathematicaUI.My.MySettings.GlobalReference.Default.NSSforTWJConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dataTableAdapter" GeneratorDataComponentClassName="dataTableAdapter" Name="data" UserDataComponentName="dataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="NSSforTWJConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     MIN(datTmarwat) AS oldTmarwat, MIN(datTsidpay) AS oldTsidpay, MIN(datImarwat) AS oldImarWat, MIN(datTnsh) AS oldTnsh, MAX(datInsh) AS oldInsh, 
+                      MIN(datIsidpay) AS oldIsidpay, MIN(datTagrwat) AS oldTagrwat, MIN(datTnb) AS oldTnb, MAX(datF2) AS oldF2, MAX(datF4) AS oldF4
+FROM         data
+WHERE     (datIraqiAgreement = 1)</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="oldTmarwat" DataSetColumn="oldTmarwat" />
+              <Mapping SourceColumn="oldTsidpay" DataSetColumn="oldTsidpay" />
+              <Mapping SourceColumn="oldImarWat" DataSetColumn="oldImarWat" />
+              <Mapping SourceColumn="oldTnsh" DataSetColumn="oldTnsh" />
+              <Mapping SourceColumn="oldInsh" DataSetColumn="oldInsh" />
+              <Mapping SourceColumn="oldIsidpay" DataSetColumn="oldIsidpay" />
+              <Mapping SourceColumn="oldTagrwat" DataSetColumn="oldTagrwat" />
+              <Mapping SourceColumn="oldTnb" DataSetColumn="oldTnb" />
+              <Mapping SourceColumn="oldF2" DataSetColumn="oldF2" />
+              <Mapping SourceColumn="oldF4" DataSetColumn="oldF4" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="oldIraqiConstraints" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="oldIraqiConstraints" msprop:Generator_DataSetName="oldIraqiConstraints">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="data" msprop:Generator_UserTableName="data" msprop:Generator_RowDeletedName="dataRowDeleted" msprop:Generator_RowChangedName="dataRowChanged" msprop:Generator_RowClassName="dataRow" msprop:Generator_RowChangingName="dataRowChanging" msprop:Generator_RowEvArgName="dataRowChangeEvent" msprop:Generator_RowEvHandlerName="dataRowChangeEventHandler" msprop:Generator_TableClassName="dataDataTable" msprop:Generator_TableVarName="tabledata" msprop:Generator_RowDeletingName="dataRowDeleting" msprop:Generator_TablePropName="data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="oldTmarwat" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldTmarwat" msprop:Generator_ColumnVarNameInTable="columnoldTmarwat" msprop:Generator_ColumnPropNameInRow="oldTmarwat" msprop:Generator_ColumnPropNameInTable="oldTmarwatColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldTsidpay" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldTsidpay" msprop:Generator_ColumnVarNameInTable="columnoldTsidpay" msprop:Generator_ColumnPropNameInRow="oldTsidpay" msprop:Generator_ColumnPropNameInTable="oldTsidpayColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldImarWat" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldImarWat" msprop:Generator_ColumnVarNameInTable="columnoldImarWat" msprop:Generator_ColumnPropNameInRow="oldImarWat" msprop:Generator_ColumnPropNameInTable="oldImarWatColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldTnsh" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldTnsh" msprop:Generator_ColumnVarNameInTable="columnoldTnsh" msprop:Generator_ColumnPropNameInRow="oldTnsh" msprop:Generator_ColumnPropNameInTable="oldTnshColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldInsh" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldInsh" msprop:Generator_ColumnVarNameInTable="columnoldInsh" msprop:Generator_ColumnPropNameInRow="oldInsh" msprop:Generator_ColumnPropNameInTable="oldInshColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldIsidpay" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldIsidpay" msprop:Generator_ColumnVarNameInTable="columnoldIsidpay" msprop:Generator_ColumnPropNameInRow="oldIsidpay" msprop:Generator_ColumnPropNameInTable="oldIsidpayColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldTagrwat" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldTagrwat" msprop:Generator_ColumnVarNameInTable="columnoldTagrwat" msprop:Generator_ColumnPropNameInRow="oldTagrwat" msprop:Generator_ColumnPropNameInTable="oldTagrwatColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldTnb" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldTnb" msprop:Generator_ColumnVarNameInTable="columnoldTnb" msprop:Generator_ColumnPropNameInRow="oldTnb" msprop:Generator_ColumnPropNameInTable="oldTnbColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="oldF2" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldF2" msprop:Generator_ColumnPropNameInRow="oldF2" msprop:Generator_ColumnVarNameInTable="columnoldF2" msprop:Generator_ColumnPropNameInTable="oldF2Column" type="xs:double" minOccurs="0" />
+              <xs:element name="oldF4" msdata:ReadOnly="true" msprop:Generator_UserColumnName="oldF4" msprop:Generator_ColumnPropNameInRow="oldF4" msprop:Generator_ColumnVarNameInTable="columnoldF4" msprop:Generator_ColumnPropNameInTable="oldF4Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
